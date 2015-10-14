@@ -7,151 +7,6 @@
         <template_group>Admin</template_group>
         <permissions>
             <permission>
-                <name>usergroup_view</name>
-                <description>perm.usergroup_view_desc</description>
-                <value>1</value>
-            </permission>
-            <permission>
-                <name>usergroup_user_list</name>
-                <description>perm.usergroup_user_list_desc</description>
-                <value>1</value>
-            </permission>
-            <permission>
-                <name>usergroup_user_edit</name>
-                <description>perm.usergroup_user_edit_desc</description>
-                <value>1</value>
-            </permission>
-            <permission>
-                <name>usergroup_new</name>
-                <description>perm.usergroup_new_desc</description>
-                <value>1</value>
-            </permission>
-            <permission>
-                <name>usergroup_save</name>
-                <description>perm.usergroup_save_desc</description>
-                <value>1</value>
-            </permission>
-            <permission>
-                <name>usergroup_edit</name>
-                <description>perm.usergroup_edit_desc</description>
-                <value>1</value>
-            </permission>
-            <permission>
-                <name>usergroup_delete</name>
-                <description>perm.usergroup_delete_desc</description>
-                <value>1</value>
-            </permission>
-            <permission>
-                <name>unpublish_document</name>
-                <description>perm.unpublish_document_desc</description>
-                <value>1</value>
-            </permission>
-            <permission>
-                <name>undelete_document</name>
-                <description>perm.undelete_document_desc</description>
-                <value>1</value>
-            </permission>
-            <permission>
-                <name>unlock_element_properties</name>
-                <description>perm.unlock_element_properties_desc</description>
-                <value>1</value>
-            </permission>
-            <permission>
-                <name>tree_show_resource_ids</name>
-                <description>perm.tree_show_resource_ids_desc</description>
-                <value>1</value>
-            </permission>
-            <permission>
-                <name>steal_locks</name>
-                <description>perm.steal_locks_desc</description>
-                <value>1</value>
-            </permission>
-            <permission>
-                <name>tree_show_element_ids</name>
-                <description>perm.tree_show_element_ids_desc</description>
-                <value>1</value>
-            </permission>
-            <permission>
-                <name>source_view</name>
-                <description>perm.source_view_desc</description>
-                <value>1</value>
-            </permission>
-            <permission>
-                <name>sources</name>
-                <description>perm.sources_desc</description>
-                <value>1</value>
-            </permission>
-            <permission>
-                <name>source_save</name>
-                <description>perm.source_save_desc</description>
-                <value>1</value>
-            </permission>
-            <permission>
-                <name>source_edit</name>
-                <description>perm.source_edit_desc</description>
-                <value>1</value>
-            </permission>
-            <permission>
-                <name>source_delete</name>
-                <description>perm.source_delete_desc</description>
-                <value>1</value>
-            </permission>
-            <permission>
-                <name>settings</name>
-                <description>perm.settings_desc</description>
-                <value>1</value>
-            </permission>
-            <permission>
-                <name>search</name>
-                <description>perm.search_desc</description>
-                <value>1</value>
-            </permission>
-            <permission>
-                <name>save_user</name>
-                <description>perm.save_user_desc</description>
-                <value>1</value>
-            </permission>
-            <permission>
-                <name>save_tv</name>
-                <description>perm.save_tv_desc</description>
-                <value>1</value>
-            </permission>
-            <permission>
-                <name>save_template</name>
-                <description>perm.save_template_desc</description>
-                <value>1</value>
-            </permission>
-            <permission>
-                <name>save_role</name>
-                <description>perm.save_role_desc</description>
-                <value>1</value>
-            </permission>
-            <permission>
-                <name>save_snippet</name>
-                <description>perm.save_snippet_desc</description>
-                <value>1</value>
-            </permission>
-            <permission>
-                <name>save_propertyset</name>
-                <description>perm.save_propertyset_desc</description>
-                <value>1</value>
-            </permission>
-            <permission>
-                <name>save_plugin</name>
-                <description>perm.save_plugin_desc</description>
-                <value>1</value>
-            </permission>
-            <permission>
-                <name>save_context</name>
-                <description>perm.save_context_desc</description>
-                <value>1</value>
-            </permission>
-            <permission>
-                <name>save_document</name>
-                <description>perm.save_document_desc</description>
-                <value>1</value>
-            </permission>
-            <permission>
                 <name>save_chunk</name>
                 <description>perm.save_chunk_desc</description>
                 <value>1</value>
@@ -287,13 +142,13 @@
                 <value>1</value>
             </permission>
             <permission>
-                <name>policy_edit</name>
-                <description>perm.policy_edit_desc</description>
+                <name>policy_new</name>
+                <description>perm.policy_new_desc</description>
                 <value>1</value>
             </permission>
             <permission>
-                <name>policy_new</name>
-                <description>perm.policy_new_desc</description>
+                <name>policy_edit</name>
+                <description>perm.policy_edit_desc</description>
                 <value>1</value>
             </permission>
             <permission>
@@ -337,13 +192,13 @@
                 <value>1</value>
             </permission>
             <permission>
-                <name>new_role</name>
-                <description>perm.new_role_desc</description>
+                <name>new_snippet</name>
+                <description>perm.new_snippet_desc</description>
                 <value>1</value>
             </permission>
             <permission>
-                <name>new_snippet</name>
-                <description>perm.new_snippet_desc</description>
+                <name>new_role</name>
+                <description>perm.new_role_desc</description>
                 <value>1</value>
             </permission>
             <permission>
@@ -407,18 +262,13 @@
                 <value>1</value>
             </permission>
             <permission>
-                <name>menu_support</name>
-                <description>perm.menu_support_desc</description>
-                <value>1</value>
-            </permission>
-            <permission>
                 <name>menu_system</name>
                 <description>perm.menu_system_desc</description>
                 <value>1</value>
             </permission>
             <permission>
-                <name>menu_security</name>
-                <description>perm.menu_security_desc</description>
+                <name>menu_support</name>
+                <description>perm.menu_support_desc</description>
                 <value>1</value>
             </permission>
             <permission>
@@ -427,8 +277,8 @@
                 <value>1</value>
             </permission>
             <permission>
-                <name>logs</name>
-                <description>perm.logs_desc</description>
+                <name>menu_security</name>
+                <description>perm.menu_security_desc</description>
                 <value>1</value>
             </permission>
             <permission>
@@ -437,8 +287,8 @@
                 <value>1</value>
             </permission>
             <permission>
-                <name>load</name>
-                <description>perm.load_desc</description>
+                <name>logs</name>
+                <description>perm.logs_desc</description>
                 <value>1</value>
             </permission>
             <permission>
@@ -447,13 +297,13 @@
                 <value>1</value>
             </permission>
             <permission>
-                <name>list</name>
-                <description>perm.list_desc</description>
+                <name>load</name>
+                <description>perm.load_desc</description>
                 <value>1</value>
             </permission>
             <permission>
-                <name>languages</name>
-                <description>perm.languages_desc</description>
+                <name>list</name>
+                <description>perm.list_desc</description>
                 <value>1</value>
             </permission>
             <permission>
@@ -462,18 +312,23 @@
                 <value>1</value>
             </permission>
             <permission>
+                <name>languages</name>
+                <description>perm.languages_desc</description>
+                <value>1</value>
+            </permission>
+            <permission>
                 <name>import_static</name>
                 <description>perm.import_static_desc</description>
                 <value>1</value>
             </permission>
             <permission>
-                <name>help</name>
-                <description>perm.help_desc</description>
+                <name>home</name>
+                <description>perm.home_desc</description>
                 <value>1</value>
             </permission>
             <permission>
-                <name>home</name>
-                <description>perm.home_desc</description>
+                <name>help</name>
+                <description>perm.help_desc</description>
                 <value>1</value>
             </permission>
             <permission>
@@ -487,13 +342,13 @@
                 <value>1</value>
             </permission>
             <permission>
-                <name>file_upload</name>
-                <description>perm.file_upload_desc</description>
+                <name>file_view</name>
+                <description>perm.file_view_desc</description>
                 <value>1</value>
             </permission>
             <permission>
-                <name>file_view</name>
-                <description>perm.file_view_desc</description>
+                <name>file_upload</name>
+                <description>perm.file_upload_desc</description>
                 <value>1</value>
             </permission>
             <permission>
@@ -532,18 +387,23 @@
                 <value>1</value>
             </permission>
             <permission>
+                <name>events</name>
+                <description>perm.events_desc</description>
+                <value>1</value>
+            </permission>
+            <permission>
                 <name>error_log_view</name>
                 <description>perm.error_log_view_desc</description>
                 <value>1</value>
             </permission>
             <permission>
-                <name>empty_cache</name>
-                <description>perm.empty_cache_desc</description>
+                <name>error_log_erase</name>
+                <description>perm.error_log_erase_desc</description>
                 <value>1</value>
             </permission>
             <permission>
-                <name>error_log_erase</name>
-                <description>perm.error_log_erase_desc</description>
+                <name>empty_cache</name>
+                <description>perm.empty_cache_desc</description>
                 <value>1</value>
             </permission>
             <permission>
@@ -582,6 +442,11 @@
                 <value>1</value>
             </permission>
             <permission>
+                <name>edit_portal</name>
+                <description>Allow to edit objects on Portal context</description>
+                <value>1</value>
+            </permission>
+            <permission>
                 <name>edit_plugin</name>
                 <description>perm.edit_plugin_desc</description>
                 <value>1</value>
@@ -599,11 +464,6 @@
             <permission>
                 <name>edit_context</name>
                 <description>perm.edit_context_desc</description>
-                <value>1</value>
-            </permission>
-            <permission>
-                <name>view</name>
-                <description>perm.view_desc</description>
                 <value>1</value>
             </permission>
             <permission>
@@ -672,6 +532,11 @@
                 <value>1</value>
             </permission>
             <permission>
+                <name>delete_portal</name>
+                <description>Allow to delete Objects on the Portal context</description>
+                <value>1</value>
+            </permission>
+            <permission>
                 <name>delete_plugin</name>
                 <description>perm.delete_plugin_desc</description>
                 <value>1</value>
@@ -727,6 +592,11 @@
                 <value>1</value>
             </permission>
             <permission>
+                <name>create_portal</name>
+                <description>Allow to create objects on Portal context</description>
+                <value>1</value>
+            </permission>
+            <permission>
                 <name>create</name>
                 <description>perm.create_desc</description>
                 <value>1</value>
@@ -779,6 +649,156 @@
             <permission>
                 <name>about</name>
                 <description>perm.about_desc</description>
+                <value>1</value>
+            </permission>
+            <permission>
+                <name>save_context</name>
+                <description>perm.save_context_desc</description>
+                <value>1</value>
+            </permission>
+            <permission>
+                <name>save_document</name>
+                <description>perm.save_document_desc</description>
+                <value>1</value>
+            </permission>
+            <permission>
+                <name>save_plugin</name>
+                <description>perm.save_plugin_desc</description>
+                <value>1</value>
+            </permission>
+            <permission>
+                <name>save_propertyset</name>
+                <description>perm.save_propertyset_desc</description>
+                <value>1</value>
+            </permission>
+            <permission>
+                <name>save_role</name>
+                <description>perm.save_role_desc</description>
+                <value>1</value>
+            </permission>
+            <permission>
+                <name>save_snippet</name>
+                <description>perm.save_snippet_desc</description>
+                <value>1</value>
+            </permission>
+            <permission>
+                <name>save_template</name>
+                <description>perm.save_template_desc</description>
+                <value>1</value>
+            </permission>
+            <permission>
+                <name>save_tv</name>
+                <description>perm.save_tv_desc</description>
+                <value>1</value>
+            </permission>
+            <permission>
+                <name>save_user</name>
+                <description>perm.save_user_desc</description>
+                <value>1</value>
+            </permission>
+            <permission>
+                <name>search</name>
+                <description>perm.search_desc</description>
+                <value>1</value>
+            </permission>
+            <permission>
+                <name>settings</name>
+                <description>perm.settings_desc</description>
+                <value>1</value>
+            </permission>
+            <permission>
+                <name>source_delete</name>
+                <description>perm.source_delete_desc</description>
+                <value>1</value>
+            </permission>
+            <permission>
+                <name>source_edit</name>
+                <description>perm.source_edit_desc</description>
+                <value>1</value>
+            </permission>
+            <permission>
+                <name>source_save</name>
+                <description>perm.source_save_desc</description>
+                <value>1</value>
+            </permission>
+            <permission>
+                <name>source_view</name>
+                <description>perm.source_view_desc</description>
+                <value>1</value>
+            </permission>
+            <permission>
+                <name>sources</name>
+                <description>perm.sources_desc</description>
+                <value>1</value>
+            </permission>
+            <permission>
+                <name>steal_locks</name>
+                <description>perm.steal_locks_desc</description>
+                <value>1</value>
+            </permission>
+            <permission>
+                <name>tree_show_element_ids</name>
+                <description>perm.tree_show_element_ids_desc</description>
+                <value>1</value>
+            </permission>
+            <permission>
+                <name>tree_show_resource_ids</name>
+                <description>perm.tree_show_resource_ids_desc</description>
+                <value>1</value>
+            </permission>
+            <permission>
+                <name>undelete_document</name>
+                <description>perm.undelete_document_desc</description>
+                <value>1</value>
+            </permission>
+            <permission>
+                <name>unlock_element_properties</name>
+                <description>perm.unlock_element_properties_desc</description>
+                <value>1</value>
+            </permission>
+            <permission>
+                <name>unpublish_document</name>
+                <description>perm.unpublish_document_desc</description>
+                <value>1</value>
+            </permission>
+            <permission>
+                <name>usergroup_delete</name>
+                <description>perm.usergroup_delete_desc</description>
+                <value>1</value>
+            </permission>
+            <permission>
+                <name>usergroup_edit</name>
+                <description>perm.usergroup_edit_desc</description>
+                <value>1</value>
+            </permission>
+            <permission>
+                <name>usergroup_new</name>
+                <description>perm.usergroup_new_desc</description>
+                <value>1</value>
+            </permission>
+            <permission>
+                <name>usergroup_save</name>
+                <description>perm.usergroup_save_desc</description>
+                <value>1</value>
+            </permission>
+            <permission>
+                <name>usergroup_user_edit</name>
+                <description>perm.usergroup_user_edit_desc</description>
+                <value>1</value>
+            </permission>
+            <permission>
+                <name>usergroup_user_list</name>
+                <description>perm.usergroup_user_list_desc</description>
+                <value>1</value>
+            </permission>
+            <permission>
+                <name>usergroup_view</name>
+                <description>perm.usergroup_view_desc</description>
+                <value>1</value>
+            </permission>
+            <permission>
+                <name>view</name>
+                <description>perm.view_desc</description>
                 <value>1</value>
             </permission>
             <permission>
@@ -866,6 +886,11 @@
                 <description>perm.workspaces_desc</description>
                 <value>1</value>
             </permission>
+            <permission>
+                <name>view_user_menu</name>
+                <description>To view the Users item link in the MODX Manager</description>
+                <value>1</value>
+            </permission>
         </permissions>
     </template>
     <name>MODX Manage Content</name>
@@ -917,6 +942,10 @@
             <value></value>
         </permission>
         <permission>
+            <name>create_portal</name>
+            <value></value>
+        </permission>
+        <permission>
             <name>credits</name>
             <value></value>
         </permission>
@@ -958,6 +987,10 @@
         </permission>
         <permission>
             <name>delete_plugin</name>
+            <value></value>
+        </permission>
+        <permission>
+            <name>delete_portal</name>
             <value></value>
         </permission>
         <permission>
@@ -1029,6 +1062,10 @@
             <value></value>
         </permission>
         <permission>
+            <name>edit_portal</name>
+            <value></value>
+        </permission>
+        <permission>
             <name>edit_propertyset</name>
             <value></value>
         </permission>
@@ -1066,6 +1103,10 @@
         </permission>
         <permission>
             <name>error_log_view</name>
+            <value></value>
+        </permission>
+        <permission>
+            <name>events</name>
             <value></value>
         </permission>
         <permission>
@@ -1554,6 +1595,10 @@
         </permission>
         <permission>
             <name>view_user</name>
+            <value>1</value>
+        </permission>
+        <permission>
+            <name>view_user_menu</name>
             <value></value>
         </permission>
         <permission>
