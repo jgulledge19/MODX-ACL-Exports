@@ -1583,7 +1583,7 @@
         </permission>
         <permission>
             <name>view_template</name>
-            <value></value>
+            <value>1</value>
         </permission>
         <permission>
             <name>view_tv</name>
