@@ -911,7 +911,7 @@
         </permission>
         <permission>
             <name>change_password</name>
-            <value></value>
+            <value>1</value>
         </permission>
         <permission>
             <name>change_profile</name>
